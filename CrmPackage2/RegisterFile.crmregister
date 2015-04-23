@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Register xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/crm/2011/tools/pluginregistration">
+  <Solutions>
+    <Solution Assembly="CustomWorkflowActivities.Workflow1.dll" Id="c81639fe-38e9-e411-80fe-c4346bac8ac8" IsolationMode="Sandbox" SourceType="Database">
+      <WorkflowTypes>
+        <WorkflowType FriendlyName="Line Item Products to String" Name="Line Item Products to String" Description="Line Item Products to String - Assembles Opportunity/Order/Quote Products into a String for Use in E-Mail" WorkflowActivityGroupName="RHUtilities" Id="8920ea10-39e9-e411-80fe-c4346bac8ac8" TypeName="CustomWorkflowActivities.Workflow1.Class1" />
+      </WorkflowTypes>
+    </Solution>
+  </Solutions>
+  <XamlWorkflows />
+</Register>
